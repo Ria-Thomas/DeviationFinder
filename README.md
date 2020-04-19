@@ -17,8 +17,10 @@ Z-normalization and moving average low-pass filter is applied to remove any stru
 
 ## How to test the code?
 
-Please follow the below steps to host the streaming anomaly detection system in localhost. A sample screenshot of the streaming system is given below.
-A sample video of the working system is added in the folder Deployment setup > Visual.
+Please follow the below steps to host the streaming anomaly detection system in localhost. A sample screenshot of the dashboard is given below.
+A sample video of the Deviation finder dashboard is added in the folder Deployment setup > Visual for reference.
+
+![alt text](images/streaming_system.jpeg "Deviation Finder Dashboard")
 
 ### Amazon DynamoDb setup
 
@@ -161,5 +163,3 @@ Screenshots of anomaly detection by using a sample data on all the 5 machine lea
 ### Deployment Setups
 This folder consists of details of setting up the real-time streaming system using Amazon Dynamo DB and method to plug in the machine learning model (LSTM Autoencoder) for predictions. 
 
-Detailed deployment steps are given below.
-<Add steps>
