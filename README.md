@@ -122,8 +122,11 @@ The final step in the deployment stage is to start a dashboard to plot the predi
 ```
 At this point, the web interface should be up and running, and you should be able to see the dashboard at the indicated hyperlink.
 
-**Note** :
-To test individual machine learning models, please follow the below steps in the folder Machine Learning.
+
+### Miscellaneous
+To test the code related to feature engineering using TSFRESH, please execute the .ipynb file in 'Feature Engineering' folder.
+
+To test individual machine learning models, please follow the below steps in the folder Machine Learning. The models are already trained and saved in the folder 'Models'.
 - For LSTM Autoencoders, ANN Autoencoders, Standard Anomaly Detection and Isolation Forest, please execute the corresponding .ipynb files
 - For Kmeans, please execute the below command
 ```
@@ -140,7 +143,7 @@ The code consists of pre-processing of the accelerometer data and plotting data 
 Sample anomaly files for all lifts for testing
 
 ### Feature Engineering
-Code using Tsfresh which was used to generate new features to improve model accuracy. This method was explored as acceleration value was the only relevant feature provided.
+Code using TSFRESH which was used to generate new features to improve model accuracy. This method was explored as acceleration value was the only relevant feature provided.
 
 ### Machine Learning
 Code for all the machine learning algorithms used as part of the project. This contains training and sample prediction of each model on the input data. The below algorithms were experimented with -
