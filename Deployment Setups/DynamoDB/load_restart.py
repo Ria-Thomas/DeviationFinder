@@ -1,3 +1,9 @@
+##Author : Vipin Das
+##Master's in Computer Science with Big Data 
+##Simon Fraser University, Burnaby
+##Created on : April 08, 2020
+
+
 from __future__ import print_function # Python 2/3 compatibility
 import boto3
 import json
