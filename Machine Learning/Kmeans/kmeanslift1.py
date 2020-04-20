@@ -1,3 +1,8 @@
+##Author : Vipin Das
+##Master's in Computer Science with Big Data 
+##Simon Fraser University, Burnaby
+##Created on : March 20, 2020
+
 from pyspark.sql import SparkSession, functions, types
 from pyspark.ml.feature import StandardScaler
 from pyspark.ml.feature import VectorAssembler
