@@ -139,9 +139,6 @@ spark-submit kmeanslift1.py
 The folder contains exploratory data analysis details for all the 15 lifts. 
 The code consists of pre-processing of the accelerometer data and plotting data for different ranges to get an idea of how anomalies and normal patterns look like.
 
-### Lift samples
-Sample anomaly files for all lifts for testing
-
 ### Feature Engineering
 Code using TSFRESH which was used to generate new features to improve model accuracy. This method was explored as acceleration value was the only relevant feature provided.
 
